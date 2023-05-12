@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.tiundira.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_visimisi"
+        android:name="com.example.tiundira.ui.visimisi.VisimisiFragment"
+        android:label="@string/menu_visimisi"
+        tools:layout="@layout/fragment_visimisi" />
+
+    <fragment
+        android:id="@+id/nav_tujuan"
+        android:name="com.example.tiundira.ui.tujuan.TujuanFragment"
+        android:label="@string/menu_tujuan"
+        tools:layout="@layout/fragment_tujuan" />
+
+    <fragment
+        android:id="@+id/nav_profil"
+        android:name="com.example.tiundira.ui.profil.ProfilFragment"
+        android:label="@string/menu_profil"
+        tools:layout="@layout/fragment_profil" />
+
+    <fragment
+        android:id="@+id/nav_memilih"
+        android:name="com.example.tiundira.ui.memilih.MemilihFragment"
+        android:label="@string/menu_memilih"
+        tools:layout="@layout/fragment_memilih" />
+
+    <fragment
+        android:id="@+id/nav_kurikulum"
+        android:name="com.example.tiundira.ui.kurikulum.KurikulumFragment"
+        android:label="@string/menu_kurikulum"
+        tools:layout="@layout/fragment_kurikulum" />
+
+    <fragment
+        android:id="@+id/nav_kontak"
+        android:name="com.example.tiundira.ui.kontak.KontakFragment"
+        android:label="@string/menu_kontak"
+        tools:layout="@layout/fragment_kontak" />
+
+</navigation>

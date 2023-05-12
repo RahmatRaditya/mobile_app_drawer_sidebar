@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_visimisi"
+            android:icon="@drawable/ic_think"
+            android:title="@string/menu_visimisi" />
+        <item
+            android:id="@+id/nav_tujuan"
+            android:icon="@drawable/ic_target"
+            android:title="@string/menu_tujuan" />
+
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@drawable/ic_graduate"
+            android:title="@string/menu_profil" />
+
+        <item
+            android:id="@+id/nav_memilih"
+            android:icon="@drawable/ic_quest"
+            android:title="@string/menu_memilih" />
+
+        <item
+            android:id="@+id/nav_kurikulum"
+            android:icon="@drawable/ic_book"
+            android:title="@string/menu_kurikulum" />
+
+        <item
+            android:id="@+id/nav_kontak"
+            android:icon="@drawable/ic_mail"
+            android:title="@string/menu_kontak" />
+    </group>
+</menu>
